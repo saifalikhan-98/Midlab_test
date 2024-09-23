@@ -58,22 +58,11 @@ variable "smtp_secure" {
   default     = false
 }
 
-variable "smtp_user" {
-  description = "SMTP username"
-  default     = "bravionllcltd@gmail.com"
-}
 
 variable "smtp_pass" {
   description = "SMTP password"
   sensitive   = true
 }
 
-variable "email_from" {
-  description = "Email address to send from"
-  default     = "bravionllcltd@gmail.com"
-}
 
-variable "email_to" {
-  description = "Email address to send notifications to"
-  default     = "salikhan329@gmail.com"
-}
+
